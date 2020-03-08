@@ -1,0 +1,514 @@
+Type environment:
+a ---> Reference(Integer)
+v ---> Integer
+PROGRAM STATE 11
+Execution stack:
+(Integer v;(Reference(Integer) a;(v = 10;(new(a, 22);(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+Integer v
+(Reference(Integer) a;(v = 10;(new(a, 22);(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+Symbol table:
+Output:
+File table:
+Heap:
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+Integer v
+(Reference(Integer) a;(v = 10;(new(a, 22);(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+Symbol table:
+Output:
+File table:
+Heap:
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+(Reference(Integer) a;(v = 10;(new(a, 22);(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+Symbol table:
+v ---> 0
+Output:
+File table:
+Heap:
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+(Reference(Integer) a;(v = 10;(new(a, 22);(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+Symbol table:
+v ---> 0
+Output:
+File table:
+Heap:
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+Reference(Integer) a
+(v = 10;(new(a, 22);(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+Symbol table:
+v ---> 0
+Output:
+File table:
+Heap:
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+Reference(Integer) a
+(v = 10;(new(a, 22);(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+Symbol table:
+v ---> 0
+Output:
+File table:
+Heap:
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+(v = 10;(new(a, 22);(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+Symbol table:
+a ---> (0, Integer)
+v ---> 0
+Output:
+File table:
+Heap:
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+(v = 10;(new(a, 22);(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+Symbol table:
+a ---> (0, Integer)
+v ---> 0
+Output:
+File table:
+Heap:
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+v = 10
+(new(a, 22);(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+Symbol table:
+a ---> (0, Integer)
+v ---> 0
+Output:
+File table:
+Heap:
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+v = 10
+(new(a, 22);(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+Symbol table:
+a ---> (0, Integer)
+v ---> 0
+Output:
+File table:
+Heap:
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+(new(a, 22);(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+Symbol table:
+a ---> (0, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+(new(a, 22);(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+Symbol table:
+a ---> (0, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+new(a, 22)
+(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+Symbol table:
+a ---> (0, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+new(a, 22)
+(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+Symbol table:
+a ---> (0, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+1 ---> 22
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+(fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+1 ---> 22
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+(print(v);print(rH(a)))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+1 ---> 22
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+(print(v);print(rH(a)))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+1 ---> 22
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+(print(v);print(rH(a)))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+1 ---> 22
+Lock table:
+
+PROGRAM STATE 16
+Execution stack:
+(wH(a, 30);(v = 32;(print(v);print(rH(a)))))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+1 ---> 22
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+(print(v);print(rH(a)))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+1 ---> 22
+Lock table:
+
+PROGRAM STATE 16
+Execution stack:
+(wH(a, 30);(v = 32;(print(v);print(rH(a)))))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+1 ---> 22
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+print(v)
+print(rH(a))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+1 ---> 22
+Lock table:
+
+PROGRAM STATE 16
+Execution stack:
+wH(a, 30)
+(v = 32;(print(v);print(rH(a))))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+1 ---> 22
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+print(v)
+print(rH(a))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+1 ---> 22
+Lock table:
+
+PROGRAM STATE 16
+Execution stack:
+wH(a, 30)
+(v = 32;(print(v);print(rH(a))))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+File table:
+Heap:
+1 ---> 22
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+print(rH(a))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+10
+File table:
+Heap:
+1 ---> 30
+Lock table:
+
+PROGRAM STATE 16
+Execution stack:
+(v = 32;(print(v);print(rH(a))))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+10
+File table:
+Heap:
+1 ---> 30
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+print(rH(a))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+10
+File table:
+Heap:
+1 ---> 30
+Lock table:
+
+PROGRAM STATE 16
+Execution stack:
+(v = 32;(print(v);print(rH(a))))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+10
+File table:
+Heap:
+1 ---> 30
+Lock table:
+
+PROGRAM STATE 11
+Execution stack:
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+10
+30
+File table:
+Heap:
+1 ---> 30
+Lock table:
+
+PROGRAM STATE 16
+Execution stack:
+v = 32
+(print(v);print(rH(a)))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+10
+30
+File table:
+Heap:
+1 ---> 30
+Lock table:
+
+PROGRAM STATE 16
+Execution stack:
+v = 32
+(print(v);print(rH(a)))
+Symbol table:
+a ---> (1, Integer)
+v ---> 10
+Output:
+10
+30
+File table:
+Heap:
+1 ---> 30
+Lock table:
+
+PROGRAM STATE 16
+Execution stack:
+(print(v);print(rH(a)))
+Symbol table:
+a ---> (1, Integer)
+v ---> 32
+Output:
+10
+30
+File table:
+Heap:
+1 ---> 30
+Lock table:
+
+PROGRAM STATE 16
+Execution stack:
+(print(v);print(rH(a)))
+Symbol table:
+a ---> (1, Integer)
+v ---> 32
+Output:
+10
+30
+File table:
+Heap:
+1 ---> 30
+Lock table:
+
+PROGRAM STATE 16
+Execution stack:
+print(v)
+print(rH(a))
+Symbol table:
+a ---> (1, Integer)
+v ---> 32
+Output:
+10
+30
+File table:
+Heap:
+1 ---> 30
+Lock table:
+
+PROGRAM STATE 16
+Execution stack:
+print(v)
+print(rH(a))
+Symbol table:
+a ---> (1, Integer)
+v ---> 32
+Output:
+10
+30
+File table:
+Heap:
+1 ---> 30
+Lock table:
+
+PROGRAM STATE 16
+Execution stack:
+print(rH(a))
+Symbol table:
+a ---> (1, Integer)
+v ---> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 ---> 30
+Lock table:
+
+PROGRAM STATE 16
+Execution stack:
+print(rH(a))
+Symbol table:
+a ---> (1, Integer)
+v ---> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 ---> 30
+Lock table:
+
+PROGRAM STATE 16
+Execution stack:
+Symbol table:
+a ---> (1, Integer)
+v ---> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 ---> 30
+Lock table:
+
